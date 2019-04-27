@@ -1,5 +1,8 @@
 # Minimal electron react boilerplate
 
+Forked from
+https://github.com/pastahito/electron-react-webpack
+
 ![w10 sample](https://github.com/kjs104901/min-electron-react-boilerplate/blob/master/screenshot.PNG?raw=true)
 
 Electron 5
@@ -32,6 +35,3 @@ Configure package.json first. Follow the instruction of electron-builder.
 ``` bash
 $ npm run dist
 ```
-
-## Copyright
-https://github.com/pastahito/electron-react-webpack
