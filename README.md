@@ -1,5 +1,7 @@
 # Minimal electron react boilerplate
 
+![w10 sample](https://github.com/kjs104901/min-electron-react-boilerplate/blob/master/screenshot.PNG?raw=true)
+
 Electron 5
 
 electron-builder 20
