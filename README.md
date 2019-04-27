@@ -35,3 +35,21 @@ Configure package.json first. Follow the instruction of electron-builder.
 ``` bash
 $ npm run dist
 ```
+
+## plugin-proposal-class-properties
+``` bash
+$ npm install --save-dev @babel/plugin-proposal-class-properties
+```
+
+.babelrc
+```
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties"
+    ]
+}
+```
