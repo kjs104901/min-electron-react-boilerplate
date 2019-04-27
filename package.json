@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "bundle": "webpack --mode development",
-    "serve": "electron .",
+    "serve": "cross-env NODE_ENV=development electron .",
     "start": "npm-run-all --parallel bundle serve",
     "dist": "electron-builder",
     "postinstall": "electron-builder install-app-deps"
@@ -27,6 +27,7 @@
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "cross-env": "^5.2.0",
     "css-loader": "^2.1.1",
     "electron": "^5.0.0",
     "electron-builder": "^20.39.0",
