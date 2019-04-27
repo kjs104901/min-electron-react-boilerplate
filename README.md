@@ -1,9 +1,13 @@
 # Minimal electron react boilerplate
 
 Electron 5
+
 React 16
+
 Webpack 4
+
 Babel core 7
+
 Babel loader 8
 
 

@@ -2,7 +2,7 @@
   "name": "min-electron-react-boilerplate",
   "version": "1.0.0",
   "description": "minimal electron react boilerplate",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "bundle": "webpack --mode development",
     "serve": "electron .",
