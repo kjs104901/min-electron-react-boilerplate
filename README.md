@@ -22,12 +22,12 @@ $ cd min-electron-react-boilerplate
 $ npm install
 ```
 
-## Develop
+## Development
 ``` bash
 $ npm start
 ```
 
-## Develop
+## Distribution
 Configure package.json first. Follow the instruction of electron-builder.
 ``` bash
 $ npm run dist
