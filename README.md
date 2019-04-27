@@ -2,6 +2,8 @@
 
 Electron 5
 
+electron-builder 20
+
 React 16
 
 Webpack 4
@@ -21,6 +23,12 @@ $ npm install
 ## Develop
 ``` bash
 $ npm start
+```
+
+## Develop
+Configure package.json first. Follow the instruction of electron-builder.
+``` bash
+$ npm run dist
 ```
 
 ## Copyright
